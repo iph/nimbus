@@ -16,7 +16,7 @@ import (
 	"crypto/tls"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/uber-go/ratelimit"
+	"go.uber.org/ratelimit"
 	"io"
 	"io/ioutil"
 	"net/http"
